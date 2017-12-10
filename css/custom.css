@@ -41,6 +41,11 @@ hr{
 }
 
 /*NAV*/
+#brand{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .navbar{
 	background: white;
     filter: opacity(85%);
@@ -51,9 +56,7 @@ hr{
     filter: opacity(100%);
 	border: transparent solid 1px;
 }
-nav ul li a{
-/*	margin: 20px 10px;
-*/}
+
 .navbar-default .navbar-nav>li>a{
 	color: orange;
 	font-weight: bold;
@@ -135,12 +138,6 @@ footer .fa{
 @media (max-width: 1024px) {
     .jumbotron{
         margin-top: 50px;
-	}
-	
-	#brand{
-		margin-top: 20px;
-		margin-bottom: 20px;
-		
 	}
 
 	.navbar-nav li a{
